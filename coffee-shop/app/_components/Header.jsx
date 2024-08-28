@@ -75,10 +75,10 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header className="bg-white container">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto flex   items-center justify-between py-6"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -115,7 +115,7 @@ const Header = () => {
            Find Us
           </a>
           <a href="#" className="text-lg font-medium leading-6 text-gray-900">
-            Alowishus Catering
+            MinDev Catering
           </a>
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end items-center gap-5">
